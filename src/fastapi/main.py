@@ -11,4 +11,4 @@ def read_root():
 
 @app.get("/health")
 def read_root():
-    return "OK"
+    return "fastapi: OK"
