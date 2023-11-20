@@ -13,3 +13,11 @@ services:
       timeout: 5s
       retries: 3
       start_period: 5s
+    networks:
+      - ingress
+
+# for testing with the GrantBirki/ingress project
+networks:
+  ingress:
+    name: ingress
+    external: true
